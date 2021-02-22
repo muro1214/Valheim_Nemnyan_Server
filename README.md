@@ -1,0 +1,2 @@
+# nemnyan_vplus_cfg
+ねむにゃんサーバーのValheim Plusのコンフィグ設定
