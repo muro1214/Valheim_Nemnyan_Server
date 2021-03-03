@@ -1,7 +1,35 @@
-# nemnyan_vplus_cfg
-ねむにゃんサーバーのValheim Plusのコンフィグ設定
+# Valheim_Nemnyan_Server
+**Valheim ねむねむにゃんこサーバー**
+★身内用です
 
-## 更新履歴
+## Info
+|Item|Value|
+|---|---|
+|サーバー名|NemNemNyanko Server|
+|パスワード|Discordへどうぞ|
+|Steam Server IP|Discordへどうぞ|
+|Game Version|0.147.3|
+|V+ Version|0.9.2.1 **Local版**|
+
+## MODについて
+V+ローカル開発版を使用しています。
+MOD開発は身内用プライベートリポジトリで実施していますので、開発したい人はDiscordに連絡ください。
+
+### 新規インストール方法
+1. [Latest Release](https://github.com/muro1214/Valheim_Nemnyan_Server/releases/latest/)から`FullPackage.zip`をダウンロード
+2. SteamでValheimのローカルフォルダを開く
+   1. SteamライブラリでValheimを右クリック
+   2. "管理" -> "ローカルファイルを閲覧" をクリック
+3. zipファイルを解凍して、Valheimのローカルフォルダに全部コピーする
+
+### 更新方法
+1. SteamでValheimのローカルフォルダを開く
+   1. SteamライブラリでValheimを右クリック
+   2. "管理" -> "ローカルファイルを閲覧" をクリック
+3. Valheimのローカルフォルダにある`valheim_nemnyan_update.ps1`を管理者権限で実行する
+4. 最新版が存在する場合は更新するか聞いてくるので、`y`を選択して更新する
+
+## Config更新履歴
 ### 2021/02/22: V+ 0.8
 * プレイヤー間のMAP共有
 * 溶解炉のアイテム上限: 炭20→40, 鉱石10→20
@@ -24,4 +52,8 @@
 * 墓石からアイテムを全回収したらMapの墓石アイコンを消す
 
 ### 2021/02/26: V+ 0.9
-* 夜時間を98%削減(昼=1176秒、夜=24秒)
+* ~~夜時間を98%削減(昼=1176秒、夜=24秒)~~ 海の波がバグるので無効化した
+
+### 2021/03/02: V+_Local 0.9.2.1
+* 水中に設置した構造物への継続ダメージを無効化
+* 開いたドアを5秒後に自動的に閉じるようにした
